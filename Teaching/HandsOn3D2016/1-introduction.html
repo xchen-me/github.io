@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="X. Chen">
+  <meta name="author" content="A. Wentworth">
+  <title>3D Printing–Learn by Building</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">3D Printing–Learn by Building</h1>
+  <h2 class="author">X. Chen</h2>
+  <h2 class="author">A. Wentworth</h2>
+  <h3 class="date">UConn 2016 fall</h3>
+</section>
+
+<section id="summary" class="slide level1">
+<h1>Summary</h1>
+<ul>
+<li class="fragment">“3D Printing: Learn by Building” 2016:
+<ul>
+<li class="fragment">introduces the principles in 3D printing. <img src="images/MakerFaire2014.jpg" alt="Maker Faire 2014" style="width:60.0%" /></li>
+<li class="fragment">offers a hybrid learning experience that focuses on the <strong>mechatronics</strong> and <strong>design</strong> of 3D printing machines.</li>
+</ul></li>
+</ul>
+</section>
+<section id="format" class="slide level1">
+<h1>Format</h1>
+<ul>
+<li class="fragment">This is a <strong>flended</strong> (<em>flipped+blended</em>) class
+<ul>
+<li class="fragment">flipped: some lecture and homework assignments are reversed</li>
+<li class="fragment">blended: some online contact displaces some portion of the face-to-face class</li>
+</ul></li>
+</ul>
+</section>
+<section id="you-will-do" class="slide level1">
+<h1>You will do:</h1>
+<figure>
+<img src="images/04-jouleFellows2016.jpg" alt="12 high-school teachers built 5 3D printers within 3 hours (2016 UConn Joule Fellows Program)" style="width:70.0%" /><figcaption>12 high-school teachers built 5 3D printers within 3 hours (2016 UConn Joule Fellows Program)</figcaption>
+</figure>
+</section>
+<section id="learn" class="slide level1">
+<h1>learn:</h1>
+<p><img src="images/solidworkstrainingWithTitle.jpg" style="width:70.0%" /> </p>
+</section>
+<section id="and-use" class="slide level1">
+<h1>and use:</h1>
+<p><img src="images/gcode-2.png" style="width:70.0%" /> </p>
+</section>
+<section id="with-a-goal-of-making" class="slide level1">
+<h1>with a goal of making:</h1>
+<p><img src="images/3dPartsDemo.png" style="width:70.0%" /> </p>
+</section>
+<section id="section" class="slide level1">
+<h1> </h1>
+<h2 id="and-more-importantly-to-develop-creative-thinking-about-the-involved-sciences-and-engineering.">and more importantly, to develop <em>creative thinking</em> about the involved <em>sciences</em> and <em>engineering</em>.</h2>
+<figure>
+<img src="images/nyt141111a004.jpg" alt="New York Times (future) ad on Nov. 11, 2014" style="width:25.0%" /><figcaption>New York Times (future) ad on Nov. 11, 2014</figcaption>
+</figure>
+</section>
+<section id="organizations" class="slide level1">
+<h1>Organizations</h1>
+<ul>
+<li class="fragment"><em>in-class learning</em>:
+<ul>
+<li class="fragment">focus on <strong>technology</strong> and <strong>knowledge</strong></li>
+</ul></li>
+<li class="fragment"><em>online module</em>:
+<ul>
+<li class="fragment">focus on developing a <strong>mindset</strong> of creativity</li>
+<li class="fragment">in collaboration with University of New Haven and Kern Entrepreneurial Engineering Network (KEEN)</li>
+</ul></li>
+<li class="fragment"><em>contextual learning</em>:
+<ul>
+<li class="fragment">extensive <strong>hands-on</strong> activities—you will build 3D printers and participate in a design competition</li>
+</ul></li>
+</ul>
+</section>
+<section id="blended-learning" class="slide level1">
+<h1>Blended learning</h1>
+<ul>
+<li>course website: http://wp.handson3d.engr.uconn.edu</li>
+<li>announcement and modules: huskyCT (lms.uconn.edu)</li>
+<li>pre-class reading assignments
+<ul>
+<li>watching videos</li>
+<li>online “creative thinking” modules</li>
+</ul></li>
+<li>post-class assignments
+<ul>
+<li>CAD design</li>
+<li>assembling</li>
+<li>creativity tests</li>
+</ul></li>
+<li>in-class quizzes</li>
+<li>more details in syllabus</li>
+</ul>
+</section>
+<section id="online-e-learning-module" class="slide level1">
+<h1>Online e-learning module</h1>
+<figure>
+<img src="images/KEEN%20screenshot.png" alt="KEEN learning module on creative thinking" /><figcaption>KEEN learning module on creative thinking</figcaption>
+</figure>
+</section>
+<section id="kit-building-and-design-competition" class="slide level1">
+<h1>Kit building and design competition</h1>
+<p><img src="images/afinibot-a1-3d-printer_1.jpg" style="width:30.0%" /> <img src="images/afinibot-printing.png" style="width:30.0%" /></p>
+</section>
+<section id="kit-building-and-design-competition-1" class="slide level1">
+<h1>Kit building and design competition</h1>
+<ul>
+<li>work in teams of 3 to 5</li>
+<li>final design competition at the Student Union</li>
+<li>evaluation metrics:
+<ul>
+<li>Kit Building</li>
+<li>Modeling &amp; Creativity</li>
+<li>Technical Competence</li>
+</ul></li>
+</ul>
+</section>
+<section id="grades" class="slide level1">
+<h1>Grades</h1>
+<ul>
+<li>Participation: 5%</li>
+<li>In-class and online quizzes: 15%</li>
+<li>Homework: (5*3%=)15%</li>
+<li>3D printing kit building: 15%</li>
+<li>Design competition: 30%</li>
+<li>Presentation and report: 20%</li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1> </h1>
+<h2 id="there-will-be-rewards">There will be rewards</h2>
+<ul>
+<li>opportunity to obtain a Solidworks certificate</li>
+<li>winning team will receive an honorary plaque</li>
+</ul>
+</section>
+<section id="section-2" class="slide level1">
+<h1> </h1>
+<h2 id="it-will-be-different">It will be different</h2>
+<ul>
+<li>there will be times that we encourage/need you to use computers in class</li>
+<li>some online contact will displace some portion of the face-to-face class</li>
+</ul>
+</section>
+<section id="instructors" class="slide level1">
+<h1>Instructors</h1>
+<ul>
+<li>Prof. Xu Chen, Mechanical Engineering
+<ul>
+<li>Office: UTEB 382</li>
+<li>Phone: (860) 486-3688</li>
+<li>Email: xchen AT uconn.edu</li>
+<li>Office Hour: Wednesday 1:00pm-2:00pm</li>
+</ul></li>
+<li>Adam Wentworth, Materials Science and Engineering
+<ul>
+<li>Office: ENGR II 303</li>
+<li>Phone: (860) 639-6961</li>
+<li>Email: adam.wentworth AT uconn.edu</li>
+<li>Office Hour: Monday 2:00pm-3:00pm</li>
+</ul></li>
+</ul>
+</section>
+<section id="teaching-assistants" class="slide level1">
+<h1>Teaching Assistants</h1>
+<p><img src="images/leslie-prunier-photo.jpg" style="width:10.0%" /> <img src="images/Stephen-Hawes.jpg" style="width:15.0%" /></p>
+<aside class="notes">
+<table style="width:21%;">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 6%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Name</th>
+<th style="text-align: left;">Email</th>
+<th style="text-align: left;">Office Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">Leslie Prunier</td>
+<td style="text-align: left;">leslie.prunier@uconn.edu</td>
+<td style="text-align: left;">Mon (12:00pm-4:30pm), Wed (12:00pm-4:30pm), Thur (12:30pm-2:30pm)</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Stephen Hawes</td>
+<td style="text-align: left;">stephen.hawes@uconn.edu</td>
+<td style="text-align: left;">Mon-Thur (8:00am-12:00pm)</td>
+</tr>
+</tbody>
+</table>
+</aside>
+<ul>
+<li>Leslie Prunier (leslie.prunier@uconn.edu)
+<ul>
+<li>Office Hour: Mon (12:00pm-3:15pm), Wed (3:30pm-5:00pm), Thur (9:30am-2:30pm) (tentative location: Homer Babbidge Library, 3D Printing Studio)</li>
+</ul></li>
+<li>Stephen Hawes (stephen.hawes@uconn.edu)
+<ul>
+<li>Office Hour: Mon-Wed (8:00am-12:00pm) (tentative location: Homer Babbidge Library, 3D Printing Studio)</li>
+</ul></li>
+</ul>
+</section>
+<section id="whats-next" class="slide level1">
+<h1>What’s next</h1>
+<ul>
+<li>complete pre survey in huskyCT</li>
+<li>form teams by Week 2</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>

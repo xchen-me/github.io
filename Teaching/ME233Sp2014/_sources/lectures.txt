@@ -1,0 +1,7 @@
+.. _lectures:
+
+*********
+Lectures
+*********
+
+Lecture 1: Introduction; `Dynamic Programming <_static/1_DP.pdf>`_

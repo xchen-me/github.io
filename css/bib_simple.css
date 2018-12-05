@@ -1,0 +1,28 @@
+img.bibbase_icon {
+    display: none;
+}
+
+.bibbase_paper_title {
+    font-weight: normal !important;
+}
+
+.bibbase_group {
+    /* background-color: #D0D0E0; */
+    /* font-style: italic; */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bibbase_group_body {
+    margin-left: 20px;
+}
+
+br.bibbase_paper_content {
+    display: none;
+}
+
+.bibbase_group_count {
+    display: none;
+}

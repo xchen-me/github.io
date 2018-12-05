@@ -2,8 +2,8 @@
 title: Xu Chen
 description: Assistant Professor, the University of Connecticut
 email: xchen[AT]uconn.edu
-url: "http://www.engr.uconn.edu"
-baseurl: "/~xchen" # the base hostname & protocol for your site
+url: "https://xchen-me.github.io"
+baseurl: "" # the base hostname & protocol for your site
 #favicon
 favicon: "/img/Xicon.ico"
 me-img: "/img/XuChen.jpg"

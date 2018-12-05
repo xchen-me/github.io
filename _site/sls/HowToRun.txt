@@ -1,0 +1,4 @@
+open terminal at the current folder
+
+run: "bundle exec jekyll serve" to develop locally
+run: "bundle exec jekyll build" to build for delivery

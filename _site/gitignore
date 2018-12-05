@@ -1,0 +1,6 @@
+/_site/*
+/.sass-cache/*
+/README.md~
+/otherrecognitions.md~
+/LICENSE~
+/.DS_Store

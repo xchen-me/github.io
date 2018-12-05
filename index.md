@@ -43,7 +43,7 @@ affiliation), 08/2014-Present
 
 *Lecturer*, Department of Mechanical Engineering , 07/2013-06/2014
 
-**Slides for lectures/short courses**: UC Berkeley Advanced Control Systems (<a href="{{ "/Teaching/ME233Sp2014/" | prepend: site.baseurl }}">website</a>, [notes](./_static/UCB_ME233_lecture_notes_2014_Spring.pdf)), UCONN <a href="{{ "/Teaching/HandsOn3D2016/1-introduction.html" | prepend: site.baseurl }}">3D Printing – Learn by Building</a> Fall 2016, [Ordinary differential equation](./_static/ODE_notes_XChen.pdf), [Linear algebra](./_static/Linear_algebra_notes_XChen.pdf), [Fourier analysis](./_static/Fourier_analysis_notes_XChen.pdf), [Partial differential equation](./_static/PDE_notes_XChen.pdf), [11 tools in feedback control](./_static/UCONN_XChen_11_tools_in_feedbackControl.pdf), [From Cooking to Advanced Manufacturing–Controls, Automation, and Beyond](./_static/UCONN_XChen_Open_house2014_cookingAM.pdf).
+**Slides for lectures/short courses**: UC Berkeley Advanced Control Systems (<a href="{{ "/Teaching/ME233Sp2014/" | prepend: site.baseurl }}">website</a>, [notes](/_static/UCB_ME233_lecture_notes_2014_Spring.pdf)), UCONN <a href="{{ "/Teaching/HandsOn3D2016/1-introduction.html" | prepend: site.baseurl }}">3D Printing – Learn by Building</a> Fall 2016, [Ordinary differential equation](./_static/ODE_notes_XChen.pdf), [Linear algebra](./_static/Linear_algebra_notes_XChen.pdf), [Fourier analysis](./_static/Fourier_analysis_notes_XChen.pdf), [Partial differential equation](./_static/PDE_notes_XChen.pdf), [11 tools in feedback control](./_static/UCONN_XChen_11_tools_in_feedbackControl.pdf), [From Cooking to Advanced Manufacturing–Controls, Automation, and Beyond](./_static/UCONN_XChen_Open_house2014_cookingAM.pdf).
 
 
 

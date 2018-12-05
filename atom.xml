@@ -5,15 +5,13 @@
     <description>Assistant Professor, the University of Connecticut</description>
     <link>https://xchen-me.github.io/</link>
     <atom:link href="https://xchen-me.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Dec 2018 23:38:45 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Dec 2018 23:38:45 -0500</lastBuildDate>
+    <pubDate>Wed, 05 Dec 2018 00:10:44 -0500</pubDate>
+    <lastBuildDate>Wed, 05 Dec 2018 00:10:44 -0500</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Example</title>
-        <description>&lt;p&gt;This is a sample post to denote the features of Swift theme . The theme consists of various share plugins , feedburner support , sitemap generation etc. You can configure the blog in similar way you use a word press blog&lt;/p&gt;
-
-&lt;!-- more --&gt;
+        <description>&lt;!-- more --&gt;
 
 &lt;p&gt;&lt;strong&gt;Basic&lt;/strong&gt;&lt;/p&gt;
 

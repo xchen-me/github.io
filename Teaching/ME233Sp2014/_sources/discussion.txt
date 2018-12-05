@@ -1,8 +1,0 @@
-.. _discussion:
-
-Discussion
-==========
-
-Below are partial notes for the discussion sessions.
-
-.. * 2013-01-25: `notes for discussion session 1 <_static/dis1_2013.pdf>`_

@@ -1,42 +1,109 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Xu Chen at 2019-03-24 19:23:19 -0400 
+%% Created for Xu Chen at 2019-04-08 17:27:49 -0400 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
 
+@inproceedings{Xiao_DSCC19_visionServo,
+	Abstract = {Although visual feedback has enabled a wide range of robotic capabilities such as autonomous navigation and robotic surgery, low sampling rate and time delays of visual outputs con- tinue to hinder real-time applications. When partial knowledge of the target dynamics are available, however, we show the poten- tial of significant performance gain in vision-based target follow- ing. Specifically, we propose a new framework with Kalman fil- ters and multirate model-based prediction (1) to reconstruct fast- sampled 3D target position and velocity data, and (2) to com- pensate the time delay for general robotic motion profiles. The proposed framework substantially extend the capability of con- ventional visual servo methods that apply only to static or slowly moving target. Along the path, we study the impact of model- ing choices and the delay duration, build simulation tools, and experimentally verify different algorithms with a robot manipu- lator equipped with an eye-in-hand camera.},
+	Annote = {Prof. Chen,
+
+Thank you. The revised paper is attached. For the journal versions, I will consider:
+Repetitive model in KF.
+Test and analysis the effect of delays, see how delays impact other signal models.
+Test other trajectory types.
+IIR based MMP.
+Maybe add adaptive estimation techniques. That is, the motion type will change during the following task.
+Add more details of KF.
+Update the experiment setup figure to include the robot controller and the desk computer.
+Add figures to show the target trajectory in the image, 
+My next priority will be the TIE paper rebuttal. At the meantime, I will do tests and discuss with you about the extensions for target tracking paper.
+
+Best,
+Hui},
+	Author = {Hui Xiao and Xu Chen},
+	Booktitle = {Proceedings of {ASME} Dynamic Systems and Control Conference},
+	Date-Added = {2019-04-02 22:10:19 -0400},
+	Date-Modified = {2019-04-02 22:10:19 -0400},
+	Keyword = {repetitive control, irregular sampling, fractional-order control},
+	Note = {under review},
+	Title = {Following Fast-Dynamic Targets With Only Slow And Delayed Visual Feedback--- A Kalman Filter and Model-Based Prediction Approach},
+	Year = 2019,
+	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBILi4vLi4vRG9jdW1lbnRzL1BhcGVycy9YaWFvL0ZvbGxvd2luZyBGYXN0LUR5bmFtaWMgVGFyZ2V0cyBXaXRoIE9ubHkucGRmTxEB0AAAAAAB0AACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H0ZvbGxvd2luZyBGYXN0LUR5biNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAgAEAAAKIGN1AAAAAAAAAAAAAAAAAARYaWFvAAIAUC86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpYaWFvOkZvbGxvd2luZyBGYXN0LUR5bmFtaWMgVGFyZ2V0cyBXaXRoIE9ubHkucGRmAA4AWgAsAEYAbwBsAGwAbwB3AGkAbgBnACAARgBhAHMAdAAtAEQAeQBuAGEAbQBpAGMAIABUAGEAcgBnAGUAdABzACAAVwBpAHQAaAAgAE8AbgBsAHkALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAE5Vc2Vycy94Y2hlbi9Eb2N1bWVudHMvUGFwZXJzL1hpYW8vRm9sbG93aW5nIEZhc3QtRHluYW1pYyBUYXJnZXRzIFdpdGggT25seS5wZGYAEwABLwAAFQACAAz//wAAAAgADQAaACQAbwAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAJD},
+	Bdsk-File-2 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBELi4vLi4vRG9jdW1lbnRzL1BhcGVycy9YaWFvL0ZvbGxvd2luZyBGYXN0LUR5bmFtaWMgVGFyZ2V0cyBXaXRoIE9ubHlPEQHCAAAAAAHCAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8fRm9sbG93aW5nIEZhc3QtRHluYW1pYyNGRkZGRkZGRgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAACAAQAAAogY3UAAAAAAAAAAAAAAAAABFhpYW8AAgBNLzpVc2Vyczp4Y2hlbjpEb2N1bWVudHM6UGFwZXJzOlhpYW86Rm9sbG93aW5nIEZhc3QtRHluYW1pYyBUYXJnZXRzIFdpdGggT25seS8AAA4AUgAoAEYAbwBsAGwAbwB3AGkAbgBnACAARgBhAHMAdAAtAEQAeQBuAGEAbQBpAGMAIABUAGEAcgBnAGUAdABzACAAVwBpAHQAaAAgAE8AbgBsAHkADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBKVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9YaWFvL0ZvbGxvd2luZyBGYXN0LUR5bmFtaWMgVGFyZ2V0cyBXaXRoIE9ubHkAEwABLwAAFQACAAz//wAAAAgADQAaACQAawAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAIx}}
+
 @inproceedings{Wang_DSCC19_SLSModeling,
-	Author = {Dan Wang and Xu Chen},
-	Booktitle = {Proceedings of 2019 International Symposium on Flexible Automation},
-	Date-Added = {2019-03-24 17:59:30 -0400},
-	Date-Modified = {2019-03-24 19:00:05 -0400},
+	Author = {Dan Wang and Tianyu Jiang and Xu Chen},
+	Booktitle = {Proceedings of {ASME} Dynamic Systems and Control Conference},
+	Date-Added = {2019-03-31 21:38:40 -0400},
+	Date-Modified = {2019-04-02 22:08:52 -0400},
 	Keyword = {repetitive control, irregular sampling, fractional-order control},
 	Note = {under review},
 	Title = {Control-Oriented Modeling And Repetitive Control Of In-Layer And Cross-Layer Thermal Interactions In Selective Laser Sintering},
-	Year = 2019}
+	Year = 2019,
+	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBcLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0NvbnRyb2wtT3JpZW50ZWQgTW9kZWxpbmcgQW5kIFJlcGV0aXRpdmUgQ29udHJvbCBPZiBJbi1MYXllci5wZGZPEQIgAAAAAAIgAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8fQ29udHJvbC1PcmllbnRlZCBNI0ZGRkZGRkZGLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAACAAQAAAogY3UAAAAAAAAAAAAAAAAABFdhbmcAAgBkLzpVc2Vyczp4Y2hlbjpEb2N1bWVudHM6UGFwZXJzOldhbmc6Q29udHJvbC1PcmllbnRlZCBNb2RlbGluZyBBbmQgUmVwZXRpdGl2ZSBDb250cm9sIE9mIEluLUxheWVyLnBkZgAOAIIAQABDAG8AbgB0AHIAbwBsAC0ATwByAGkAZQBuAHQAZQBkACAATQBvAGQAZQBsAGkAbgBnACAAQQBuAGQAIABSAGUAcABlAHQAaQB0AGkAdgBlACAAQwBvAG4AdAByAG8AbAAgAE8AZgAgAEkAbgAtAEwAYQB5AGUAcgAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAYlVzZXJzL3hjaGVuL0RvY3VtZW50cy9QYXBlcnMvV2FuZy9Db250cm9sLU9yaWVudGVkIE1vZGVsaW5nIEFuZCBSZXBldGl0aXZlIENvbnRyb2wgT2YgSW4tTGF5ZXIucGRmABMAAS8AABUAAgAM//8AAAAIAA0AGgAkAIMAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAACpw==},
+	Bdsk-File-2 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBdLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0NvbnRyb2wtT3JpZW50ZWQgTW9kZWxpbmcgQW5kIFJlcGV0aXRpdmUgQ29udHJvbCBPZiBJbi1MYXllcjEucGRmTxECJgAAAAACJgACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H0NvbnRyb2wtT3JpZW50ZWQgTSNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAgAEAAAKIGN1AAAAAAAAAAAAAAAAAARXYW5nAAIAZS86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpXYW5nOkNvbnRyb2wtT3JpZW50ZWQgTW9kZWxpbmcgQW5kIFJlcGV0aXRpdmUgQ29udHJvbCBPZiBJbi1MYXllcjEucGRmAAAOAIQAQQBDAG8AbgB0AHIAbwBsAC0ATwByAGkAZQBuAHQAZQBkACAATQBvAGQAZQBsAGkAbgBnACAAQQBuAGQAIABSAGUAcABlAHQAaQB0AGkAdgBlACAAQwBvAG4AdAByAG8AbAAgAE8AZgAgAEkAbgAtAEwAYQB5AGUAcgAxAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBjVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0NvbnRyb2wtT3JpZW50ZWQgTW9kZWxpbmcgQW5kIFJlcGV0aXRpdmUgQ29udHJvbCBPZiBJbi1MYXllcjEucGRmAAATAAEvAAAVAAIADP//AAAACAANABoAJACEAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAq4=},
+	Bdsk-File-3 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBdLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0NvbnRyb2wtT3JpZW50ZWQgTW9kZWxpbmcgQW5kIFJlcGV0aXRpdmUgQ29udHJvbCBPZiBJbi1MYXllcjAucGRmTxECJgAAAAACJgACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H0NvbnRyb2wtT3JpZW50ZWQgTSNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAgAEAAAKIGN1AAAAAAAAAAAAAAAAAARXYW5nAAIAZS86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpXYW5nOkNvbnRyb2wtT3JpZW50ZWQgTW9kZWxpbmcgQW5kIFJlcGV0aXRpdmUgQ29udHJvbCBPZiBJbi1MYXllcjAucGRmAAAOAIQAQQBDAG8AbgB0AHIAbwBsAC0ATwByAGkAZQBuAHQAZQBkACAATQBvAGQAZQBsAGkAbgBnACAAQQBuAGQAIABSAGUAcABlAHQAaQB0AGkAdgBlACAAQwBvAG4AdAByAG8AbAAgAE8AZgAgAEkAbgAtAEwAYQB5AGUAcgAwAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBjVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0NvbnRyb2wtT3JpZW50ZWQgTW9kZWxpbmcgQW5kIFJlcGV0aXRpdmUgQ29udHJvbCBPZiBJbi1MYXllcjAucGRmAAATAAEvAAAVAAIADP//AAAACAANABoAJACEAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAq4=}}
+
+@misc{hifunda2018,
+	Author = {Jiwen Wang and Jim Steppan and Balky Nair and Xu Chen},
+	Date-Added = {2019-03-28 07:31:16 -0400},
+	Date-Modified = {2019-03-28 07:33:13 -0400},
+	Keywords = {patent},
+	Month = {December},
+	Note = {filed},
+	Title = {Selective Area Forging (SAF) for Additive Manufacturing},
+	Year = {2018}}
+
+@article{yang_reusePA12_19,
+	Author = {Feifei Yang and Xu Chen},
+	Date-Added = {2019-03-27 21:14:17 -0400},
+	Date-Modified = {2019-03-27 21:14:54 -0400},
+	Journal = {Additive Manufacturing},
+	Note = {in preparation},
+	Title = {A review of aging, degradation, and reusability of PA12 powders in selective laser sintering additive manufacturing},
+	Year = {2019}}
+
+@inproceedings{Xiao_IFAC19_visionServo,
+	Abstract = {Although visual feedback has enabled a wide range of robotic capabilities such as autonomous navigation and robotic surgery, low sampling rate and time delays of visual outputs con- tinue to hinder real-time applications. When partial knowledge of the target dynamics are available, however, we show the poten- tial of significant performance gain in vision-based target follow- ing. Specifically, we propose a new framework with Kalman fil- ters and multirate model-based prediction (1) to reconstruct fast- sampled 3D target position and velocity data, and (2) to com- pensate the time delay for general robotic motion profiles. The proposed framework substantially extend the capability of con- ventional visual servo methods that apply only to static or slowly moving target. Along the path, we study the impact of model- ing choices and the delay duration, build simulation tools, and experimentally verify different algorithms with a robot manipu- lator equipped with an eye-in-hand camera.},
+	Annote = {Prof. Chen,
+
+Thank you. The revised paper is attached. For the journal versions, I will consider:
+Repetitive model in KF.
+Test and analysis the effect of delays, see how delays impact other signal models.
+Test other trajectory types.
+IIR based MMP.
+Maybe add adaptive estimation techniques. That is, the motion type will change during the following task.
+Add more details of KF.
+Update the experiment setup figure to include the robot controller and the desk computer.
+Add figures to show the target trajectory in the image, 
+My next priority will be the TIE paper rebuttal. At the meantime, I will do tests and discuss with you about the extensions for target tracking paper.
+
+Best,
+Hui},
+	Author = {Hui Xiao and Xu Chen},
+	Booktitle = {Joint 12th IFAC Conference on Control Applications in Marine Systems, Robotics, and Vehicles 1st IFAC Workshop on Robot Control},
+	Date-Added = {2019-03-24 17:59:30 -0400},
+	Date-Modified = {2019-04-02 22:11:02 -0400},
+	Keyword = {repetitive control, irregular sampling, fractional-order control},
+	Note = {under review},
+	Title = {Following Fast-Dynamic Targets with Slow and Delayed Visual Feedback},
+	Year = 2019,
+	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBILi4vLi4vRG9jdW1lbnRzL1BhcGVycy9YaWFvL0ZvbGxvd2luZyBGYXN0LUR5bmFtaWMgVGFyZ2V0cyB3aXRoIFNsb3cucGRmTxEB0AAAAAAB0AACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H0ZvbGxvd2luZyBGYXN0LUR5biNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAgAEAAAKIGN1AAAAAAAAAAAAAAAAAARYaWFvAAIAUC86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpYaWFvOkZvbGxvd2luZyBGYXN0LUR5bmFtaWMgVGFyZ2V0cyB3aXRoIFNsb3cucGRmAA4AWgAsAEYAbwBsAGwAbwB3AGkAbgBnACAARgBhAHMAdAAtAEQAeQBuAGEAbQBpAGMAIABUAGEAcgBnAGUAdABzACAAdwBpAHQAaAAgAFMAbABvAHcALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAE5Vc2Vycy94Y2hlbi9Eb2N1bWVudHMvUGFwZXJzL1hpYW8vRm9sbG93aW5nIEZhc3QtRHluYW1pYyBUYXJnZXRzIHdpdGggU2xvdy5wZGYAEwABLwAAFQACAAz//wAAAAgADQAaACQAbwAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAJD}}
 
 @article{optInverse2019,
 	Author = {Dan Wang and Xu Chen},
 	Date-Added = {2019-03-22 09:57:52 -0400},
 	Date-Modified = {2019-03-22 09:57:52 -0400},
-	Journal = {Mechatronics},
 	Note = {under review},
 	Title = {An Optimal Stable Selective Model Inversion for Spectrum-Limited Feedback Control},
 	Year = {2019},
 	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBLLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0FuIE9wdGltYWwgU3RhYmxlIFNlbGVjdGl2ZSBNb2RlbCBJbnZlcnNpb24ucGRmTxEB3gAAAAAB3gACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H0FuIE9wdGltYWwgU3RhYmxlICNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAUERGIENBUk8AAgAEAAAKIGN1AAAAAAAAAAAAAAAAAARXYW5nAAIAUy86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpXYW5nOkFuIE9wdGltYWwgU3RhYmxlIFNlbGVjdGl2ZSBNb2RlbCBJbnZlcnNpb24ucGRmAAAOAGAALwBBAG4AIABPAHAAdABpAG0AYQBsACAAUwB0AGEAYgBsAGUAIABTAGUAbABlAGMAdABpAHYAZQAgAE0AbwBkAGUAbAAgAEkAbgB2AGUAcgBzAGkAbwBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBRVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0FuIE9wdGltYWwgU3RhYmxlIFNlbGVjdGl2ZSBNb2RlbCBJbnZlcnNpb24ucGRmAAATAAEvAAAVAAIADP//AAAACAANABoAJAByAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAlQ=},
 	Bdsk-File-2 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBHLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0FuIE9wdGltYWwgU3RhYmxlIFNlbGVjdGl2ZSBNb2RlbCBJbnZlcnNpb25PEQHOAAAAAAHOAAIAAQxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8fQW4gT3B0aW1hbCBTdGFibGUgU2VsZSNGRkZGRkZGRgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAACAAQAAAogY3UAAAAAAAAAAAAAAAAABFdhbmcAAgBQLzpVc2Vyczp4Y2hlbjpEb2N1bWVudHM6UGFwZXJzOldhbmc6QW4gT3B0aW1hbCBTdGFibGUgU2VsZWN0aXZlIE1vZGVsIEludmVyc2lvbi8ADgBYACsAQQBuACAATwBwAHQAaQBtAGEAbAAgAFMAdABhAGIAbABlACAAUwBlAGwAZQBjAHQAaQB2AGUAIABNAG8AZABlAGwAIABJAG4AdgBlAHIAcwBpAG8AbgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAE1Vc2Vycy94Y2hlbi9Eb2N1bWVudHMvUGFwZXJzL1dhbmcvQW4gT3B0aW1hbCBTdGFibGUgU2VsZWN0aXZlIE1vZGVsIEludmVyc2lvbgAAEwABLwAAFQACAAz//wAAAAgADQAaACQAbgAAAAAAAAIBAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAJA}}
-
-@article{arxiv19-dan,
-	Author = {Dan Wang and Xu Chen},
-	Date-Added = {2019-01-06 20:26:46 -0500},
-	Date-Modified = {2019-03-22 09:58:48 -0400},
-	Journal = {arXiv:1903.09054 [cs.SY]},
-	Title = {An Optimal Stable Selective Model Inversion for Nonminimum-phase Systems},
-	Year = {2019},
-	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBLLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0FuIE9wdGltYWwgU3RhYmxlIFNlbGVjdGl2ZSBNb2RlbCBJbnZlcnNpb24ucGRmTxEB3gAAAAAB3gACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H0FuIE9wdGltYWwgU3RhYmxlICNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAUERGIENBUk8AAgAEAAAKIGN1AAAAAAAAAAAAAAAAAARXYW5nAAIAUy86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpXYW5nOkFuIE9wdGltYWwgU3RhYmxlIFNlbGVjdGl2ZSBNb2RlbCBJbnZlcnNpb24ucGRmAAAOAGAALwBBAG4AIABPAHAAdABpAG0AYQBsACAAUwB0AGEAYgBsAGUAIABTAGUAbABlAGMAdABpAHYAZQAgAE0AbwBkAGUAbAAgAEkAbgB2AGUAcgBzAGkAbwBuAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBRVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL0FuIE9wdGltYWwgU3RhYmxlIFNlbGVjdGl2ZSBNb2RlbCBJbnZlcnNpb24ucGRmAAATAAEvAAAVAAIADP//AAAACAANABoAJAByAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAlQ=}}
 
 @article{Jiang_FMSDOB_J2018,
 	Abstract = {Modulating the transmission of vibration energy in a closed-loop control system without sacrificing overall system performance is a fundamental issue in a wide range of applica- tions from precision motion control, active noise cancellation, to advanced manufacturing. As a powerful design method, local loop shaping has been recognized to be capable of actively and flexibly shaping system dynamics to respond to different shapes of input spectra. However, strong and flexible local loop shaping for systems with nonminimum-phase zeros has remained underdeveloped due to challenges to invert the system dynamics. Pursuing to address the problem, this paper proposes a new feedback approach to shape energy transmission with prescribed performance requirements. Pioneering an integration of the interpolation theory with a model-based parameterization of the closed loop, the work proposes a filter design that matches the inverse plant dynamics locally and creates a highly effective framework for controlling both narrow- and wide- band vibrations. Also discussed are optimization methods for controlling the fundamental waterbed limitation. The proposed algorithm is verified by simulation and experimentation on a laser scanning platform in selective laser sintering additive manufacturing. The benefit over conventional plant inverse-based loop-shaping method is also validated.},
@@ -147,6 +214,7 @@
 	Date-Modified = {2018-04-15 03:03:55 +0000},
 	Keyword = {repetitive control, irregular sampling, fractional-order control},
 	Month = {July},
+	Note = {\textbf{Best Paper Award}},
 	Title = {Synthesis and Analysis of Multirate Repetitive Control for Fractional-order Periodic Disturbance Rejection in Powder Bed Fusion},
 	Year = 2018,
 	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBXLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL1N5bnRoZXNpcyBhbmQgQW5hbHlzaXMgb2YgTXVsdGlyYXRlIFJlcGV0aXRpdmUgQ29udHJvbDEucGRmTxECDgAAAAACDgACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H1N5bnRoZXNpcyBhbmQgQW5hbCNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAgAEAAAKIGN1AAAAAAAAAAAAAAAAAARXYW5nAAIAXy86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpXYW5nOlN5bnRoZXNpcyBhbmQgQW5hbHlzaXMgb2YgTXVsdGlyYXRlIFJlcGV0aXRpdmUgQ29udHJvbDEucGRmAAAOAHgAOwBTAHkAbgB0AGgAZQBzAGkAcwAgAGEAbgBkACAAQQBuAGEAbAB5AHMAaQBzACAAbwBmACAATQB1AGwAdABpAHIAYQB0AGUAIABSAGUAcABlAHQAaQB0AGkAdgBlACAAQwBvAG4AdAByAG8AbAAxAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBdVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9XYW5nL1N5bnRoZXNpcyBhbmQgQW5hbHlzaXMgb2YgTXVsdGlyYXRlIFJlcGV0aXRpdmUgQ29udHJvbDEucGRmAAATAAEvAAAVAAIADP//AAAACAANABoAJAB+AAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAApA=},
@@ -198,6 +266,7 @@ This paper discusses fractional-order repetitive control (RC) to advance the qua
 	Date-Added = {2017-04-15 10:25:56 +0000},
 	Date-Modified = {2018-04-15 03:20:13 +0000},
 	Keywords = {disturbance observer, adaptive control, additive manufacturing},
+	Note = {\textbf{Best Vibration Paper Award, ASME Dynamic Systems and Control Division}},
 	Title = {An Inverse-Free Disturbance Observer For Adaptive Narrow-Band Disturbance Rejection With Application To Selective Laser Sintering},
 	Year = 2017,
 	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBeLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9KaWFuZy9BbiBJbnZlcnNlLUZyZWUgRGlzdHVyYmFuY2UgT2JzZXJ2ZXIgRm9yIEFkYXB0aXZlIE5hcnJvdy1CYW5kLnBkZk8RAigAAAAAAigAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x9BbiBJbnZlcnNlLUZyZWUgRGkjRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAIABAAACiBjdQAAAAAAAAAAAAAAAAAFSmlhbmcAAAIAZi86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpKaWFuZzpBbiBJbnZlcnNlLUZyZWUgRGlzdHVyYmFuY2UgT2JzZXJ2ZXIgRm9yIEFkYXB0aXZlIE5hcnJvdy1CYW5kLnBkZgAOAIQAQQBBAG4AIABJAG4AdgBlAHIAcwBlAC0ARgByAGUAZQAgAEQAaQBzAHQAdQByAGIAYQBuAGMAZQAgAE8AYgBzAGUAcgB2AGUAcgAgAEYAbwByACAAQQBkAGEAcAB0AGkAdgBlACAATgBhAHIAcgBvAHcALQBCAGEAbgBkAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBkVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9KaWFuZy9BbiBJbnZlcnNlLUZyZWUgRGlzdHVyYmFuY2UgT2JzZXJ2ZXIgRm9yIEFkYXB0aXZlIE5hcnJvdy1CYW5kLnBkZgATAAEvAAAVAAIADP//AAAACAANABoAJACFAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAArE=},
@@ -211,6 +280,7 @@ This paper discusses fractional-order repetitive control (RC) to advance the qua
 	Date-Modified = {2017-04-15 10:25:28 +0000},
 	Doi = {10.1109/AIM.2017.8014263},
 	Keywords = {disturbance observer, beyond-Nyquist control, additive manufacturing},
+	Note = {\textbf{Best Student Paper on Mechatronics Award, ASME Dynamic Systems and Control Division}},
 	Pages = {1700-1705},
 	Title = {Multi-band beyond-{Nyquist} Disturbance Rejection on a Galvanometer Scanner System},
 	Year = {2017},
@@ -418,7 +488,7 @@ sample paper},
 	Title = {Interlaced Direct Adaptive Regulation Scheme Applied to a Benchmark Problem},
 	Year = {2016},
 	Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBYLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9MYW5kYXVTaWx2YV8yMDE2X0ludGVybGFjZWQgRGlyZWN0IEFkYXB0aXZlIFJlZ3VsYXRpb24gU2NoZW1lLnBkZk8RAhwAAAAAAhwAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x9MYW5kYXVTaWx2YV8yMDE2X0kjRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAIAAwAACiBjdQAAAAAAAAAAAAAAAAAGUGFwZXJzAAIAYC86VXNlcnM6eGNoZW46RG9jdW1lbnRzOlBhcGVyczpMYW5kYXVTaWx2YV8yMDE2X0ludGVybGFjZWQgRGlyZWN0IEFkYXB0aXZlIFJlZ3VsYXRpb24gU2NoZW1lLnBkZgAOAIQAQQBMAGEAbgBkAGEAdQBTAGkAbAB2AGEAXwAyADAAMQA2AF8ASQBuAHQAZQByAGwAYQBjAGUAZAAgAEQAaQByAGUAYwB0ACAAQQBkAGEAcAB0AGkAdgBlACAAUgBlAGcAdQBsAGEAdABpAG8AbgAgAFMAYwBoAGUAbQBlAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBeVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9MYW5kYXVTaWx2YV8yMDE2X0ludGVybGFjZWQgRGlyZWN0IEFkYXB0aXZlIFJlZ3VsYXRpb24gU2NoZW1lLnBkZgATAAEvAAAVAAIADP//AAAACAANABoAJAB/AAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAp8=},
-	Bdsk-File-2 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBELi4vbVBhcGVyLzIwMTYgTWVkIENvbmYgQ29udHJvbCAtIHdpdGggTGFuZGF1L01FRDE2XzAwMTFfRkkgY29weS5wZGZPEQHQAAAAAAHQAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WTUVEMTZfMDAxMV9GSSBjb3B5LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAABAAMAAAogY3UAAAAAAAAAAAAAAAAAHzIwMTYgTWVkIENvbmYgQ29udHJvbCAtIHdpdCM4MjUAAAIAVy86VXNlcnM6eGNoZW46RHJvcGJveDptUGFwZXI6MjAxNiBNZWQgQ29uZiBDb250cm9sIC0gd2l0aCBMYW5kYXU6TUVEMTZfMDAxMV9GSSBjb3B5LnBkZgAADgAuABYATQBFAEQAMQA2AF8AMAAwADEAMQBfAEYASQAgAGMAbwBwAHkALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFVVc2Vycy94Y2hlbi9Ecm9wYm94L21QYXBlci8yMDE2IE1lZCBDb25mIENvbnRyb2wgLSB3aXRoIExhbmRhdS9NRUQxNl8wMDExX0ZJIGNvcHkucGRmAAATAAEvAAAVAAIADP//AAAACAANABoAJABrAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAj8=},
+	Bdsk-File-2 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBELi4vbVBhcGVyLzIwMTYgTWVkIENvbmYgQ29udHJvbCAtIHdpdGggTGFuZGF1L01FRDE2XzAwMTFfRkkgY29weS5wZGZPEQHQAAAAAAHQAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8WTUVEMTZfMDAxMV9GSSBjb3B5LnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAABAAMAAAogY3UAAAAAAAAAAAAAAAAAHzIwMTYgTWVkIENvbmYgQ29udHJvbCAtIHdpdCM3QjIAAAIAVy86VXNlcnM6eGNoZW46RHJvcGJveDptUGFwZXI6MjAxNiBNZWQgQ29uZiBDb250cm9sIC0gd2l0aCBMYW5kYXU6TUVEMTZfMDAxMV9GSSBjb3B5LnBkZgAADgAuABYATQBFAEQAMQA2AF8AMAAwADEAMQBfAEYASQAgAGMAbwBwAHkALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFVVc2Vycy94Y2hlbi9Ecm9wYm94L21QYXBlci8yMDE2IE1lZCBDb25mIENvbnRyb2wgLSB3aXRoIExhbmRhdS9NRUQxNl8wMDExX0ZJIGNvcHkucGRmAAATAAEvAAAVAAIADP//AAAACAANABoAJABrAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAj8=},
 	Bdsk-File-3 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxBOLi4vLi4vRG9jdW1lbnRzL1BhcGVycy9MYW5kYXUvSW50ZXJsYWNlZCBEaXJlY3QgQWRhcHRpdmUgUmVndWxhdGlvbiBTY2hlbWUucGRmTxEB5gAAAAAB5gACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////H0ludGVybGFjZWQgRGlyZWN0ICNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAgAEAAAKIGN1AAAAAAAAAAAAAAAAAAZMYW5kYXUAAgBWLzpVc2Vyczp4Y2hlbjpEb2N1bWVudHM6UGFwZXJzOkxhbmRhdTpJbnRlcmxhY2VkIERpcmVjdCBBZGFwdGl2ZSBSZWd1bGF0aW9uIFNjaGVtZS5wZGYADgBiADAASQBuAHQAZQByAGwAYQBjAGUAZAAgAEQAaQByAGUAYwB0ACAAQQBkAGEAcAB0AGkAdgBlACAAUgBlAGcAdQBsAGEAdABpAG8AbgAgAFMAYwBoAGUAbQBlAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBUVXNlcnMveGNoZW4vRG9jdW1lbnRzL1BhcGVycy9MYW5kYXUvSW50ZXJsYWNlZCBEaXJlY3QgQWRhcHRpdmUgUmVndWxhdGlvbiBTY2hlbWUucGRmABMAAS8AABUAAgAM//8AAAAIAA0AGgAkAHUAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAACXw==},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1109/MED.2016.7535848}}
 
